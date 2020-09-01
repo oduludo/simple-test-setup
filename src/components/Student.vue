@@ -9,8 +9,8 @@
         <li>Year: {{ student.year }}</li>
       </ul>
 
-      <button v-on:click="yearMinus" :disabled="disableYearMinus">Year -1</button>
-      <button v-on:click="yearPlus" :disabled="disableYearPlus">Year +1</button>
+      <button id="btn_yearMinus" v-on:click="yearMinus" :disabled="disableYearMinus">Year -1</button>
+      <button id="btn_yearPlus" v-on:click="yearPlus" :disabled="disableYearPlus">Year +1</button>
     </div>
 
   </div>
